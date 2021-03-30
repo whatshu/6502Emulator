@@ -31,3 +31,9 @@ This code was written during the youtube video : https://youtu.be/qJgsuQoy9bc
 * Emulating a CPU is harder you than you think, because you have emulate things you got for free in a real CPU (like the clock)
 * Writing Unit tests for the CPU was a good idea.
 * Big switch state works for small instruction set processors, probably not for bigger ones, like the 68000.
+
+
+
+# Custom
+
+* Add 6502Run to support NES develop
