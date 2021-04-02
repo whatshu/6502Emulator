@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.7)
 
 project( M6502Lib )
 
+set(CMAKE_CXX_STANDARD 14)
+
 if(MSVC)
 	add_compile_options(/MP)				#Use multiple processors when building
 	add_compile_options(/W4 /wd4201 /WX)	#Warning level 4, all warnings are errors
